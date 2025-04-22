@@ -14,7 +14,7 @@ public class usersController {
     @GetMapping("/clase_1")
     public String home (Model model){
         model.addAttribute("mensaje", "Hola Mundo en la WEB");
-        model.addAttribute("mensaje1", "Prueba de GIT");
+        model.addAttribute("mensaje1", "Este es un nuevo mensaje desde mensaje1");
         return "index"; //retorna el nombre de la vista en este caso index.html
     }
 
